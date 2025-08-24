@@ -1,7 +1,7 @@
 name: Deployment Exercise 1
 on: push
 jobs:
-  deploy:
+  my-test-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Get code
